@@ -1,0 +1,5 @@
+getwd()
+setwd('~/Dropbox/Data-Science/Udacity-Data-Analysis-with-R')
+getwd()
+statesInfo <- read.csv('stateData.csv')
+subset(statesInfo,highSchoolGrad > 65.1)
